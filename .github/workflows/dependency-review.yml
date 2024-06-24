@@ -34,6 +34,5 @@ jobs:
         # Commonly enabled options, see https://github.com/actions/dependency-review-action#configuration-options for all available options.
         with:
           comment-summary-in-pr: always
-          fail-on-severity: moderate
-          deny-licenses: GPL-1.0-or-later,GPL-2.0-or-later,GPL-3.0-or-later,CC-BY-SA-1.0,CC-BY-SA-2.0,CC-BY-SA-2.0-UK,CC-BY-SA-2.1-JP,CC-BY-SA-2.5,	CC-BY-SA-3.0, CC-BY-SA-3.0-AT,CC-BY-SA-3.0-DE, CC-BY-SA-3.0-IGO, CC-BY-SA-4.0,Sendmail,Sendmail-8.23,	Sleepycat             
+          deny-licenses: GPL-1.0-or-later,GPL-2.0-or-later,GPL-3.0-or-later,CC-BY-SA-1.0,CC-BY-SA-2.0,CC-BY-SA-2.0-UK,CC-BY-SA-2.1-JP,CC-BY-SA-2.5,CC-BY-SA-3.0,CC-BY-SA-3.0-AT,CC-BY-SA-3.0-DE,CC-BY-SA-3.0-IGO,CC-BY-SA-4.0,Sendmail,Sendmail-8.23,Sleepycat             
         #   retry-on-snapshot-warnings: true
